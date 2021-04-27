@@ -1,0 +1,185 @@
+// ********** Footer *******************************************************
+
+footer {
+    background: #1e1e1e;
+    color: #B0B0B0;
+}
+
+.black {
+    // background: #232323;
+    background: #2a2c2d;
+    color: white;
+    padding: 6.2vh 6.7vw 5.2vh;
+    height: 21vh;
+    cursor: default;
+
+    h5 {
+        font-size: 18*$vw;
+        margin-bottom: 0.7vh;
+    }
+
+    i {
+        font-size: 57*$vw;
+        color: $primary;
+        padding-right: 0.8vw;
+        margin-top: -4px;
+        transition: all 0.3s linear;
+
+        &:hover {
+            color: #d8d8d8;
+        }
+    }
+}
+
+.direction {
+    cursor: pointer !important;
+}
+
+.black-p {
+    color: #9e9e9e;
+    font-size: 13.5*$vw;
+    font-weight: 500;
+    padding-right: 3vw;
+    // padding-left: 2vw;
+}
+
+.foot-row {
+    padding: 4.9vw 6.5vw;
+}
+
+.sec1, 
+.sec2,
+.sec3 {
+    position: relative;
+    padding-right: 59px !important;
+
+    a {
+        color: #B0B0B0;
+        text-decoration: none;
+        transition: color 0.3s linear;
+
+        &:hover {
+            color: #ffff;
+        }
+    }
+
+    p {
+        font-size: 16*$vw;
+        line-height: 28px;
+        color: #B0B0B0;
+    }
+
+    h4 {
+        margin: 0;
+        font-size: 24*$vw;
+        font-weight: 500;
+        padding-bottom: 20px;
+        margin-bottom: 34px;
+        position: relative;
+        color: #fff;
+    }
+
+    ul {
+        padding-left: 0;
+    }
+
+    li {
+        color: #B0B0B0;
+        font-size: 16*$vw;
+        line-height: 37*$vw;
+        // margin-bottom: 1.1vw;
+        // cursor: pointer;
+        list-style-type: none;
+
+        span {
+            color: #147390 !important;
+            color: #93969c;
+        }
+    }
+
+    &:after {
+        content: "";
+        height: 4px;
+        background: #113f9c;
+        position: absolute;
+        top: 37px;
+        width: 11%;
+    }
+}
+
+.input-foot {
+    width: 82%;
+    background-color: #ffffff21;
+    border: 1px solid #ced4da00;
+    margin-bottom: 0.3vw;
+    color: #636f7b;
+}
+
+.foot_msg {
+    padding: 6px 12px;
+}
+
+#send_foot {
+    background: transparent;
+    transition: all 0.4s ease;
+    color: #5d6065;
+    border: none;
+    font-weight: 800;
+    margin-left: 1vw;
+    outline: none;
+    margin-left: 0.5vw;
+    padding: 5px 6px 0;
+
+    &:hover {
+        transform: scale(1.4);
+        color: $primary;
+    }
+}
+
+// Bot bar
+
+.bot-bar {
+    border-top: 1px solid #303639;
+    padding: 1.57vw 6.5vw;
+
+    p {
+        margin-bottom: 0;
+        font-size: 1vw;
+        padding-top: 0.7vw;
+        color: #626d82;
+    }
+}
+
+.part1 {
+    position: relative;
+    top: 5px;
+}
+
+.partner {
+    img {
+        width: 5vw;
+    }
+}
+
+.logo3 {
+    height: 40px;
+    width: auto;
+}
+
+#gotop {
+    background: $primary;
+    display: none;
+    border: none;
+    position: fixed;
+    bottom: 1vw;
+    right: 1vw;
+    padding: 12px 14px 7px 15px;
+    border-radius: 4%;
+    outline: none;
+
+    // transition: all 0.5s linear;
+    i {
+        color: white;
+        font-size: 27px;
+    }
+}

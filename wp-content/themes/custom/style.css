@@ -1,0 +1,339 @@
+/*!
+Theme Name: Custom
+Theme URI: http://underscores.me/
+Author: Akash Yadav
+Author URI: http://akash.me/
+Description: A custom theme for custom company
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: custom
+Tags:
+*/
+/* Import from Node Modeles
+--------------------------------------------- */
+/* Abstracts
+--------------------------------------------- */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* Root 1rem = 1px
+--------------------------------------------- */
+/* Base
+--------------------------------------------- */
+/* Import Fonts ----------------------------------------------------------------------------
+   ----------------------------------------------------------------------------------------- */
+/* Font Variable ----------------------------------------------------------------------------
+   ------------------------------------------------------------------------------------------ */
+/* Inc font file ----------------------------------------------------------------------------
+   -------------------------------------------------------------------------------------------*/
+body {
+  font-family: "Poppins", sans-serif !important;
+}
+
+#main-wrapper {
+  display: none;
+}
+
+/* Height
+--------------------------------------------- */
+.h-fill {
+  height: -webkit-fill-available;
+}
+
+.h-fit {
+  height: fit-content;
+}
+
+/* Display
+--------------------------------------------- */
+.flex {
+  display: flex;
+}
+
+/* Alignment
+--------------------------------------------- */
+.grid-center {
+  display: grid;
+  place-items: center;
+}
+
+.flex-v-center {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.flex-h-center {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Components Global
+--------------------------------------------- */
+.g-heading {
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+}
+
+/* Image
+--------------------------------------------- */
+.img-object {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Animate
+--------------------------------------------- */
+/* Layouts
+--------------------------------------------- */
+#loader {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #191833;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#loader img {
+  height: 33vh;
+}
+
+#navbar1 {
+  background: transparent;
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  box-shadow: -2px -3px 10px 0 rgba(0, 0, 0, 0.5);
+  padding: 0;
+}
+#navbar1 .navbar-brand {
+  margin-left: 9.5vw;
+}
+#navbar1 img.logo {
+  height: 100%;
+  width: 100px;
+}
+#navbar1 .top-menu ul {
+  padding-top: 3px;
+  margin-bottom: 0;
+  margin-left: 4vw;
+}
+#navbar1 .top-menu li {
+  display: inline;
+  padding: 0 30px;
+  transition: all 0.5s ease-out;
+  font-size: 16px;
+}
+#navbar1 .top-menu a {
+  color: #fff;
+  transition: color 0.3s ease;
+}
+#navbar1 .top-menu a:hover {
+  color: #666;
+  text-decoration: none;
+}
+#navbar1 .sidepanel {
+  display: none;
+}
+
+footer {
+  background: #1e1e1e;
+  color: #B0B0B0;
+}
+
+.black {
+  background: #2a2c2d;
+  color: white;
+  padding: 6.2vh 6.7vw 5.2vh;
+  height: 21vh;
+  cursor: default;
+}
+.black h5 {
+  font-size: 0.9375vw;
+  margin-bottom: 0.7vh;
+}
+.black i {
+  font-size: 2.96875vw;
+  color: #666;
+  padding-right: 0.8vw;
+  margin-top: -4px;
+  transition: all 0.3s linear;
+}
+.black i:hover {
+  color: #d8d8d8;
+}
+
+.direction {
+  cursor: pointer !important;
+}
+
+.black-p {
+  color: #9e9e9e;
+  font-size: 0.703125vw;
+  font-weight: 500;
+  padding-right: 3vw;
+}
+
+.foot-row {
+  padding: 4.9vw 6.5vw;
+}
+
+.sec1,
+.sec2,
+.sec3 {
+  position: relative;
+  padding-right: 59px !important;
+}
+.sec1 a,
+.sec2 a,
+.sec3 a {
+  color: #B0B0B0;
+  text-decoration: none;
+  transition: color 0.3s linear;
+}
+.sec1 a:hover,
+.sec2 a:hover,
+.sec3 a:hover {
+  color: #ffff;
+}
+.sec1 p,
+.sec2 p,
+.sec3 p {
+  font-size: 0.8333333333vw;
+  line-height: 28px;
+  color: #B0B0B0;
+}
+.sec1 h4,
+.sec2 h4,
+.sec3 h4 {
+  margin: 0;
+  font-size: 1.25vw;
+  font-weight: 500;
+  padding-bottom: 20px;
+  margin-bottom: 34px;
+  position: relative;
+  color: #fff;
+}
+.sec1 ul,
+.sec2 ul,
+.sec3 ul {
+  padding-left: 0;
+}
+.sec1 li,
+.sec2 li,
+.sec3 li {
+  color: #B0B0B0;
+  font-size: 0.8333333333vw;
+  line-height: 1.9270833333vw;
+  list-style-type: none;
+}
+.sec1 li span,
+.sec2 li span,
+.sec3 li span {
+  color: #147390 !important;
+  color: #93969c;
+}
+.sec1:after,
+.sec2:after,
+.sec3:after {
+  content: "";
+  height: 4px;
+  background: #113f9c;
+  position: absolute;
+  top: 37px;
+  width: 11%;
+}
+
+.input-foot {
+  width: 82%;
+  background-color: #ffffff21;
+  border: 1px solid #ced4da00;
+  margin-bottom: 0.3vw;
+  color: #636f7b;
+}
+
+.foot_msg {
+  padding: 6px 12px;
+}
+
+#send_foot {
+  background: transparent;
+  transition: all 0.4s ease;
+  color: #5d6065;
+  border: none;
+  font-weight: 800;
+  margin-left: 1vw;
+  outline: none;
+  margin-left: 0.5vw;
+  padding: 5px 6px 0;
+}
+#send_foot:hover {
+  transform: scale(1.4);
+  color: #666;
+}
+
+.bot-bar {
+  border-top: 1px solid #303639;
+  padding: 1.57vw 6.5vw;
+}
+.bot-bar p {
+  margin-bottom: 0;
+  font-size: 1vw;
+  padding-top: 0.7vw;
+  color: #626d82;
+}
+
+.part1 {
+  position: relative;
+  top: 5px;
+}
+
+.partner img {
+  width: 5vw;
+}
+
+.logo3 {
+  height: 40px;
+  width: auto;
+}
+
+#gotop {
+  background: #666;
+  display: none;
+  border: none;
+  position: fixed;
+  bottom: 1vw;
+  right: 1vw;
+  padding: 12px 14px 7px 15px;
+  border-radius: 4%;
+  outline: none;
+}
+#gotop i {
+  color: white;
+  font-size: 27px;
+}
+
+/* Components
+--------------------------------------------- */
+/* Pages
+--------------------------------------------- */
+.banner {
+  height: 100vh;
+  background: #666;
+}
+.banner img {
+  filter: brightness(0.3);
+}
+
+/*# sourceMappingURL=style.css.map */
