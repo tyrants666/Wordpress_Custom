@@ -3,10 +3,39 @@
 
 // }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 body {
     font-family: $font-poppins !important;
 }
 
+h1 {
+
+}
+
 #main-wrapper {
     display: none;
+}
+
+main > section {
+    padding: 4vw 19vw 2vw 19vw;
+}
+
+
+
+h1.heading {
+    width: fit-content;
+    text-align: center;
+    margin-bottom: 84px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 5px;
+    font-weight: 700;
+    border-bottom: 2px solid $maroon;
+}
+h2.sub-heading {
+    font-weight: 600;
+    margin-bottom: 15px;
 }

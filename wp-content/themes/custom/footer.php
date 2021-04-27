@@ -61,7 +61,7 @@
 					<p>Established in 1985, XXX Group  Pvt. Ltd. is now one of the most renowned and oldest XXXXX industries in Nepal.</p>
 					<div class="read">
 						<a href="/index.php?page_id=23#check_white" class="anch-read">
-						<span class="read-more vw-4" style="color:#93969c;">  Read more <i class="material-icons eco" style="color:#113f9c;">eco</i></span>
+						<span class="read-more vw-4" style="color:#93969c;">  Read more <i class="material-icons eco">eco</i></span>
 						</a>
 					</div>
 				</div>
@@ -70,28 +70,20 @@
 					<div class="d-flex">
 						<ul class="">
 						<li><a class="underline3" href="<?php echo home_url(); ?>">Home</a></li>
+						<li><a class="underline3" href="<?php echo home_url(); ?>/services">Blogs</a></li>
 						<li><a class="underline3" href="<?php echo home_url(); ?>/about-us">About Us</a></li>
-						<li><a class="underline3" href="<?php echo home_url(); ?>/services">Services</a></li>
 						</ul>
 						<ul class="mx-auto">
+						<li><a class="underline3" href="<?php echo home_url(); ?>/technology">Call Us</a></li>
 						<li><a class="underline3" href="<?php echo home_url(); ?>/product">Our Products</a></li>
-						<li><a class="underline3" href="<?php echo home_url(); ?>/technology">Quality & Technology</a></li>
 						<li><a class="underline3" href="<?php echo home_url(); ?>/contact-us">Contact Us</a></li>
 						</ul>
 
 					</div>
 				</div>
 				<div class="sec3 col-md-4 mx-auto p-0">
-					<h4>Write to Us</h4>
-					<form class="foot_form">
-					<!-- <form class="foot_form" action="/action_page.php"> -->
-						<textarea class="input-foot form-control foot_msg" type="text" id="msgg" value="" placeholder="Message" required></textarea>
-						<div class="d-flex">
-						<input class="input-foot form-control" type="email" id="emaill" value="" placeholder="Your Email Address" autocomplete="off" required>
-						<button id="send_foot" type="submit" name="button"><i class="material-icons">send</i></button>
-						</div>
-						<p class=" sent_foot mt-lg-0 mt-1 " style="color: #f9ca45; display:none;  ">Message sent successfully.</p>
-					</form>
+					<h4>Our Location On Google Maps</h4>
+					<div> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3571.6604361113327!2d87.28094981503553!3d26.466672383321644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ef750af2ab55a9%3A0x5a1cc317f5081ea7!2sBigADCo.%20Advertising%20Agency!5e0!3m2!1sen!2snp!4v1619547559196!5m2!1sen!2snp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
 				</div>
 
 			</div>
@@ -101,7 +93,7 @@
 			<div class="bot-bar row mx-0">
 
 				<div class="pr-4">
-					<img class="logo3" src="<?php echo esc_url( get_template_directory_uri() ) ?>/images/logo-rotate.gif"alt="">
+					<img class="logo3" src="<?php echo esc_url( get_template_directory_uri() ) ?>/assets/images/logo.png"alt="">
 				</div>
 				
 				<div class="col-lg-4 col-9 p-0">

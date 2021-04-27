@@ -1,2 +1,21 @@
 
 
+.btn-oval {
+    background: $maroon !important;
+    color: #fff !important;
+    border-radius: 25px !important;
+    padding: 10px 22px !important;
+    transition: all 0.4s ease;
+    font-weight: 300;
+    font-size: 16px;
+
+    &:hover {
+        background: #666 !important;
+    }
+    &:active {
+        background: #666 !important;
+    }
+    &:focus {
+        background: #666 !important;
+    }
+}

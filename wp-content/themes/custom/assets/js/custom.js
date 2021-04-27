@@ -94,9 +94,11 @@
       });
 
       $(document).scroll(function () {
-        // if(scrolltop >= 300){
-        // }else if(scrolltop < 300){
-        // }
+        if(scrolltop >= 300){
+          $('#navbar1').addClass('solid');
+        }else if(scrolltop < 300){
+          $('#navbar1').removeClass('solid');
+        }
       });      
     // RESPONSIVE SCRIPT
     // ------------------------------------------------------------------------------------------------

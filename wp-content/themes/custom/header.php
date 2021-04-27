@@ -49,6 +49,7 @@
                     )
                 );
               ?>
+              <button class="btn btn-oval ml-4">Contact Us</button>
           </div>
 
           <!-- Hamburger Menu -->

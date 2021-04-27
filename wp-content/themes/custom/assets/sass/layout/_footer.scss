@@ -10,7 +10,7 @@ footer {
     background: #2a2c2d;
     color: white;
     padding: 6.2vh 6.7vw 5.2vh;
-    height: 21vh;
+    height: 18.6vh;
     cursor: default;
 
     h5 {
@@ -20,7 +20,7 @@ footer {
 
     i {
         font-size: 57*$vw;
-        color: $primary;
+        color: $maroon;
         padding-right: 0.8vw;
         margin-top: -4px;
         transition: all 0.3s linear;
@@ -45,6 +45,14 @@ footer {
 
 .foot-row {
     padding: 4.9vw 6.5vw;
+
+    iframe {
+        width: 71%;
+        height: 249px;
+    }
+}
+.sec1 .eco {
+    color: $maroon;
 }
 
 .sec1, 
@@ -100,39 +108,10 @@ footer {
     &:after {
         content: "";
         height: 4px;
-        background: #113f9c;
+        background: $maroon;
         position: absolute;
         top: 37px;
         width: 11%;
-    }
-}
-
-.input-foot {
-    width: 82%;
-    background-color: #ffffff21;
-    border: 1px solid #ced4da00;
-    margin-bottom: 0.3vw;
-    color: #636f7b;
-}
-
-.foot_msg {
-    padding: 6px 12px;
-}
-
-#send_foot {
-    background: transparent;
-    transition: all 0.4s ease;
-    color: #5d6065;
-    border: none;
-    font-weight: 800;
-    margin-left: 1vw;
-    outline: none;
-    margin-left: 0.5vw;
-    padding: 5px 6px 0;
-
-    &:hover {
-        transform: scale(1.4);
-        color: $primary;
     }
 }
 
@@ -162,7 +141,7 @@ footer {
 }
 
 .logo3 {
-    height: 40px;
+    height: 50px;
     width: auto;
 }
 

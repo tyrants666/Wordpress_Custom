@@ -2,13 +2,19 @@
 // ************ Navbar 1 ******************************************************************************************
 // ************ Navbar 1 ******************************************************************************************
 
+.solid {
+    background: #2a2c2dbf !important;
+}
+
 #navbar1 {
-    background: transparent;;
+    // background: #2a2c2dbf;
+    background: transparent;
     z-index: 1;
-    position: absolute;
+    position: fixed;
     width: 100%;
-    box-shadow: -2px -3px 10px 0 rgba(0, 0, 0, 0.5);
+    // box-shadow: -2px -3px 10px 0 rgba(0, 0, 0, 0.5);
     padding: 0;
+    transition: background 0.4s ease;
 
     .navbar-brand {
         margin-left: 9.5vw;
@@ -20,24 +26,29 @@
     }
     
     .top-menu {
+
+        display: flex;
+        align-items: center;
+            
         ul {
             padding-top: 3px;
             margin-bottom: 0;
             margin-left: 4vw;
-        }
+        } 
     
         li {
             display: inline;
             padding: 0 30px;
             transition: all 0.5s ease-out;
             font-size: 16px;
+            font-weight: 300;
         }
     
         a {
             color: $white;
             transition: color .3s ease;
             &:hover { 
-                color: $primary;
+                color: #ccc;
                 text-decoration: none;
             }
         }

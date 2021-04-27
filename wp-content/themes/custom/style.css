@@ -27,12 +27,36 @@ Tags:
    ------------------------------------------------------------------------------------------ */
 /* Inc font file ----------------------------------------------------------------------------
    -------------------------------------------------------------------------------------------*/
+::-webkit-scrollbar {
+  display: none;
+}
+
 body {
   font-family: "Poppins", sans-serif !important;
 }
 
 #main-wrapper {
   display: none;
+}
+
+main > section {
+  padding: 4vw 19vw 2vw 19vw;
+}
+
+h1.heading {
+  width: fit-content;
+  text-align: center;
+  margin-bottom: 84px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 5px;
+  font-weight: 700;
+  border-bottom: 2px solid #b5101d;
+}
+
+h2.sub-heading {
+  font-weight: 600;
+  margin-bottom: 15px;
 }
 
 /* Height
@@ -109,13 +133,17 @@ body {
   height: 33vh;
 }
 
+.solid {
+  background: #2a2c2dbf !important;
+}
+
 #navbar1 {
   background: transparent;
   z-index: 1;
-  position: absolute;
+  position: fixed;
   width: 100%;
-  box-shadow: -2px -3px 10px 0 rgba(0, 0, 0, 0.5);
   padding: 0;
+  transition: background 0.4s ease;
 }
 #navbar1 .navbar-brand {
   margin-left: 9.5vw;
@@ -123,6 +151,10 @@ body {
 #navbar1 img.logo {
   height: 100%;
   width: 100px;
+}
+#navbar1 .top-menu {
+  display: flex;
+  align-items: center;
 }
 #navbar1 .top-menu ul {
   padding-top: 3px;
@@ -134,13 +166,14 @@ body {
   padding: 0 30px;
   transition: all 0.5s ease-out;
   font-size: 16px;
+  font-weight: 300;
 }
 #navbar1 .top-menu a {
   color: #fff;
   transition: color 0.3s ease;
 }
 #navbar1 .top-menu a:hover {
-  color: #666;
+  color: #ccc;
   text-decoration: none;
 }
 #navbar1 .sidepanel {
@@ -156,7 +189,7 @@ footer {
   background: #2a2c2d;
   color: white;
   padding: 6.2vh 6.7vw 5.2vh;
-  height: 21vh;
+  height: 18.6vh;
   cursor: default;
 }
 .black h5 {
@@ -165,7 +198,7 @@ footer {
 }
 .black i {
   font-size: 2.96875vw;
-  color: #666;
+  color: #b5101d;
   padding-right: 0.8vw;
   margin-top: -4px;
   transition: all 0.3s linear;
@@ -187,6 +220,14 @@ footer {
 
 .foot-row {
   padding: 4.9vw 6.5vw;
+}
+.foot-row iframe {
+  width: 71%;
+  height: 249px;
+}
+
+.sec1 .eco {
+  color: #b5101d;
 }
 
 .sec1,
@@ -249,38 +290,10 @@ footer {
 .sec3:after {
   content: "";
   height: 4px;
-  background: #113f9c;
+  background: #b5101d;
   position: absolute;
   top: 37px;
   width: 11%;
-}
-
-.input-foot {
-  width: 82%;
-  background-color: #ffffff21;
-  border: 1px solid #ced4da00;
-  margin-bottom: 0.3vw;
-  color: #636f7b;
-}
-
-.foot_msg {
-  padding: 6px 12px;
-}
-
-#send_foot {
-  background: transparent;
-  transition: all 0.4s ease;
-  color: #5d6065;
-  border: none;
-  font-weight: 800;
-  margin-left: 1vw;
-  outline: none;
-  margin-left: 0.5vw;
-  padding: 5px 6px 0;
-}
-#send_foot:hover {
-  transform: scale(1.4);
-  color: #666;
 }
 
 .bot-bar {
@@ -304,7 +317,7 @@ footer {
 }
 
 .logo3 {
-  height: 40px;
+  height: 50px;
   width: auto;
 }
 
@@ -326,14 +339,45 @@ footer {
 
 /* Components
 --------------------------------------------- */
+.btn-oval {
+  background: #b5101d !important;
+  color: #fff !important;
+  border-radius: 25px !important;
+  padding: 10px 22px !important;
+  transition: all 0.4s ease;
+  font-weight: 300;
+  font-size: 16px;
+}
+.btn-oval:hover {
+  background: #666 !important;
+}
+.btn-oval:active {
+  background: #666 !important;
+}
+.btn-oval:focus {
+  background: #666 !important;
+}
+
 /* Pages
 --------------------------------------------- */
-.banner {
+.temp-home {
+  padding-bottom: 50px;
+}
+.temp-home .img-col {
+  height: 330px;
+}
+.temp-home .banner {
   height: 100vh;
   background: #666;
 }
-.banner img {
-  filter: brightness(0.3);
+.temp-home .banner img {
+  filter: brightness(0.25) saturate(2.3);
+}
+.temp-home .h-sec2 .box {
+  height: 13.9369791667vw;
+}
+.temp-home .h-sec4 img {
+  filter: brightness(0.5);
 }
 
 /*# sourceMappingURL=style.css.map */
