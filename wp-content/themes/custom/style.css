@@ -302,7 +302,6 @@ footer {
 }
 .bot-bar p {
   margin-bottom: 0;
-  font-size: 1vw;
   padding-top: 0.7vw;
   color: #626d82;
 }
@@ -328,8 +327,8 @@ footer {
   position: fixed;
   bottom: 1vw;
   right: 1vw;
-  padding: 12px 14px 7px 15px;
-  border-radius: 4%;
+  padding: 11px 12px 6px 13px;
+  border-radius: 50%;
   outline: none;
 }
 #gotop i {
