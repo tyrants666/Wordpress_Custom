@@ -1,6 +1,6 @@
 <?php
 /*
- * Template Name: Home Page Template
+ * Template Name: About Us Page Template
  */
 ?>
 
@@ -13,11 +13,19 @@
 //     $title = (isset($hero_banner['hero_banner']['title'])) ? $hero_banner['hero_banner']['title'] : false;
 ?>
 
-<main id="primary" class="temp-aboutus">
+    <!-- Banner
+    -------------------------------------------------------- -->
+    <div class="banner">
+        <img src="<?php echo CUSTOM_DIR_URI ?>/assets/images/banner.jpg" alt="banner" class="img-object">
+    </div>
 
-    <h1>About Us Template </h1>
+    <!-- Content
+    -------------------------------------------------------- -->
+    <main class="temp-aboutus temp-wrapper">
 
-</main><!-- #main -->
+        <h1 class="heading">About Us Template </h1>
+
+    </main><!-- #main -->
 
 
 <?php get_footer(); ?>

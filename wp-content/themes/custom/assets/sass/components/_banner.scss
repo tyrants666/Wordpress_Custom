@@ -1,0 +1,10 @@
+
+// Banner  --------------------------------------------
+.banner {
+    height: 35vh;
+    background: #666;
+
+    img {
+        filter: brightness(0.25) saturate(2.3);
+    }
+}

@@ -13,11 +13,19 @@
 //     $title = (isset($hero_banner['hero_banner']['title'])) ? $hero_banner['hero_banner']['title'] : false;
 ?>
 
-<main class="temp-contact">
+    <!-- Banner
+    -------------------------------------------------------- -->
+    <div class="banner">
+        <img src="<?php echo CUSTOM_DIR_URI ?>/assets/images/banner.jpg" alt="banner" class="img-object">
+    </div>
 
-    <h1>Contact Us Template </h1>
+     <!-- Content
+    -------------------------------------------------------- -->
+    <main class="temp-contact temp-wrapper">
 
-</main><!-- #main -->
+        <h1 class="heading">Contact Us Template </h1>
+
+    </main><!-- #main -->
 
 
 <?php get_footer(); ?>

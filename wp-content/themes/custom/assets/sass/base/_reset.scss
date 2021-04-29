@@ -15,6 +15,10 @@ h1 {
 
 }
 
+article {
+    padding-top: 110px;
+}
+
 #main-wrapper {
     display: none;
 }
@@ -38,4 +42,8 @@ h1.heading {
 h2.sub-heading {
     font-weight: 600;
     margin-bottom: 15px;
+}
+
+main.temp-wrapper {
+    margin: 50px 0;
 }

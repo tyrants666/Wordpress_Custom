@@ -1,14 +1,32 @@
 <?php
-/*
- * Template Name: Blog Page Template
+
+/**
+ * Template Name: Blog archive page Templates
+ *
+ * This is the template that displays all pages by default.
+ * Please note that this is the WordPress construct of pages
+ * and that other 'pages' on your WordPress site may use a
+ * different template.
+ *
+ * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
+ *
+ * @package custom
  */
+
+get_header();
 ?>
+    <!-- Banner
+    -------------------------------------------------------- -->
+    <div class="banner">
+        <img src="<?php echo CUSTOM_DIR_URI ?>/assets/images/banner.jpg" alt="banner" class="img-object">
+    </div>
+    
+	<main class="temp-blog temp-wrapper">
 
-<?php get_header();?>
 
-<main class="temp-blog">
+        <div class="container">
 
-    <?php
+		<?php
         // WP_Query arguments
         $args = array (
             'post_type'      => array( 'post' ),
@@ -19,11 +37,14 @@
         // The Query
         $post_query = new WP_Query( $args );
         if ( $post_query->have_posts() ) : ?>
-            <header class="page-header dashed-border">
+            <header class="mb-5">
                 <?php
                 // the_archive_title( '<h1 class="page-title">', '</h1>' );
                 ?>
-                <center> <h3 class="g-heading">Blogs</h3></center>
+                <div class="blue_header">
+                    <h1 class="heading">Blogs</h1>
+                 </div>
+
             </header>
 
 
@@ -67,6 +88,11 @@
                     ?>
             </div>
 
-</main>
 
-<?php get_footer(); ?>
+
+
+        </div>              
+	</main><!-- #main -->
+
+<?php
+get_footer();

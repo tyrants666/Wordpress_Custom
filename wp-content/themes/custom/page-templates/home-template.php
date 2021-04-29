@@ -1,6 +1,6 @@
 <?php
 /*
- * Template Name: About Us Page Template
+ * Template Name: Home Page Template
  */
 ?>
 
@@ -15,7 +15,7 @@
 
 <main id="primary" class="temp-home">
 
-    <div class="banner">
+    <div class="banner" >
         <img src="<?php echo CUSTOM_DIR_URI ?>/assets/images/banner.jpg" alt="banner" class="img-object">
     </div>
 

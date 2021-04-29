@@ -1,5 +1,7 @@
 <?php get_header(); ?>
 
+<!-- Content
+-------------------------------------------------------- -->
 <article class="wraps">
 
   <div class="border">

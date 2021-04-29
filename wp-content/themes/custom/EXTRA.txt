@@ -1,5 +1,21 @@
 
+BUGS :-
+
+1. 404 Navbar FIX
+2. SIngle Page FIX
 
 
+Note :- change the custom names to current Project
 
-1. Remove JS error innerHRML
+
+1. Register Menu -- theme-setup.php
+2. Rename Theme Folder
+3. style.scss Theme Name
+4. Wordpress Main Project Folder
+5. CUSTOM_DIR_URI -- theme-setup.php
+6. Change WP Username & Password
+7. Change DB prefix
+8. custom_site Rename --widgets.php
+9. Change CPT (Products) --post-types.php
+9. Change custom_site --post-types.php
+10. Delete All default post from CPT/Blogs
