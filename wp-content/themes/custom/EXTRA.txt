@@ -7,6 +7,7 @@
 2. Single Page Navigation FIX
 3. Optmize speed of site loading time
 4. Update gitignore in production or when boilerplate is complete
+5. Git update new Boilerplate & with rathicol repository delete & create new one
 
 
 /* Boilerplate NOTES :-
