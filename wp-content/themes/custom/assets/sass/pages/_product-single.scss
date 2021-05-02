@@ -1,0 +1,42 @@
+
+
+/* CPT First Styles
+-------------------------------------------------------- */
+
+.single-cpt1 {
+
+    article {
+        padding-bottom: 23px;
+        margin-bottom: 23px;
+
+        // Heading -----------------------
+        .entry-header {
+            margin-bottom: 23px;
+
+            h1.entry-title {
+                margin-left: 0;
+            }
+        }
+
+        // Featured Image -----------------
+        .post-thumbnail {
+            margin-bottom: 23px;
+        }
+    }
+
+    // Featured Image ---------------------------------------
+    .post-navigation {
+        border-bottom: none;
+    }
+
+    // Post Navigation ---------------------------------------
+    #comments {
+        padding-bottom: 23px;
+        margin-bottom: 23px;
+    }
+
+    // Comment Section---------------------------------------
+    .comment-form-comment {
+        display: grid;
+    }
+}

@@ -1,6 +1,6 @@
 // ********** Footer *******************************************************
 
-footer {
+.footer {
     background: #1e1e1e;
     color: #B0B0B0;
 }
@@ -20,7 +20,7 @@ footer {
 
     i {
         font-size: 57*$vw;
-        color: $maroon;
+        color: $primary;
         padding-right: 0.8vw;
         margin-top: -4px;
         transition: all 0.3s linear;
@@ -52,7 +52,7 @@ footer {
     }
 }
 .sec1 .eco {
-    color: $maroon;
+    color: $primary;
 }
 
 .sec1, 
@@ -108,7 +108,7 @@ footer {
     &:after {
         content: "";
         height: 4px;
-        background: $maroon;
+        background: $primary;
         position: absolute;
         top: 37px;
         width: 11%;
@@ -146,7 +146,7 @@ footer {
 }
 
 #gotop {
-    background: $primary;
+    background: $grey;
     display: none;
     border: none;
     position: fixed;

@@ -1,30 +1,19 @@
 
-// Banner ----------------------
 
+// Banner  --------------------------------------------
 
+.banner-home {
+    height: 100vh;
+}
 
-
+// Content  --------------------------------------------
 
 .temp-home {
-
-    padding-bottom: 50px;
 
     .img-col {
         height: 330px;
     }
 
-    // Banner  --------------------------------------------
-    .banner {
-        height: 100vh;
-        background: #666;
-
-        // img{
-        //     filter: brightness(0.6) blur(4px);
-        // }
-        img{
-            filter: brightness(0.25) saturate(2.3);
-        }
-    }
 
     .h-sec2 {
         .box {

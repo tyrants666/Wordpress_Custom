@@ -4,16 +4,16 @@ add_action('init', 'product_cpt');
 function product_cpt()
 {
 	$labels = array(
-		'name'                  => _x('Product', 'Post type general name', 'custom_site'),
-		'singular_name'         => _x('Product Page', 'Post type singular name', 'custom_site'),
-		'menu_name'             => _x('Product', 'Admin Menu text', 'custom_site'),
+		'name'                  => _x('Products', 'Post type general name', 'custom_site'),
+		'singular_name'         => _x('Product', 'Post type singular name', 'custom_site'),
+		'menu_name'             => _x('Products', 'Admin Menu text', 'custom_site'),
 		'name_admin_bar'        => _x('Product Page', 'Add New on Toolbar', 'custom_site'),
 		'add_new'               => __('Add New', 'custom_site'),
 		'add_new_item'          => __('Add New Product Page', 'custom_site'),
 		'new_item'              => __('New Product Page', 'custom_site'),
 		'edit_item'             => __('Edit Product Page', 'custom_site'),
 		'view_item'             => __('View Product Page', 'custom_site'),
-		'all_items'             => __('All Product', 'custom_site'),
+		'all_items'             => __('All Products', 'custom_site'),
 		'search_items'          => __('Search Product', 'custom_site'),
 		'parent_item_colon'     => __('Parent Product:', 'custom_site'),
 		'not_found'             => __('No Product found.', 'custom_site'),
@@ -31,8 +31,9 @@ function product_cpt()
 	);
 	$args = array(
 		'labels' => $labels,
-		'hierarchical' => true, //false as a post
-		'has_archive' => true,
+		'hierarchical' => false, //false as a post
+		'has_archive' => false, // True if you want archive-products page // False for using Page Templates
+		"description" => "",
 		'public'             => true,
 		'publicly_queryable' => true,
 		'show_ui'            => true,
@@ -41,17 +42,19 @@ function product_cpt()
 		'public' => true,
         'show_ui' => true,
         'show_in_menu' => true,
+		"show_in_nav_menus" => true,
+		"delete_with_user" => false,
         'capability_type' => 'post',
 		'menu_icon' => 'dashicons-products', //https://developer.wordpress.org/resource/dashicons/#paperclip
         'menu_position' =>  24,
-		'supports' => array('post','title', 'editor', 'excerpt', 'author', 'thumbnail', 'revisions','page-attributes'),
+		'supports' => array('post','title','editor', 'excerpt', 'thumbnail','page-attributes'),
 		// 'supports' => array('post','title', 'editor', 'excerpt', 'author', 'thumbnail', 'revisions', 'custom-fields','page-attributes'),
         // 'exclude_from_search' => false,
         // 'show_in_rest'       => true,             //Add Gutenberg text editor
         // 'rewrite' => true,               					//rewrite custom slug
-		"rewrite" => [ "slug" => "products", "with_front" => true ]
+		"rewrite" => [ "slug" => "products", "with_front" => true ],
 	);
-	register_post_type('product', $args);
+	register_post_type('products', $args);
 
 	// Add new taxonomy, make it hierarchical (like categories)
 	// $labels = array(

@@ -29,7 +29,7 @@ get_header();
 		<?php
         // WP_Query arguments
         $args = array (
-            'post_type'      => array( 'product' ),
+            'post_type'      => array( 'products' ),
             'post_status'    => array( 'publish' ),
             // 'orderby'           => 'date',
             // 'order'             => 'ASC',

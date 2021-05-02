@@ -1,13 +1,23 @@
 
-BUGS :-
+/* Bugs
+-------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------- */
 
 1. 404 Navbar FIX
-2. SIngle Page FIX
+2. Single Page Navigation FIX
+3. Optmize speed of site loading time
+4. Update gitignore in production or when boilerplate is complete
 
 
-Note :- change the custom names to current Project
+/* Boilerplate NOTES :-
+-------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------- */
 
+Note :- 
+-- sass --watch assets/sass:./
+-- change the custom names to current Project
 
+0. upload & delete database.sql file
 1. Register Menu -- theme-setup.php
 2. Rename Theme Folder
 3. style.scss Theme Name
@@ -16,6 +26,26 @@ Note :- change the custom names to current Project
 6. Change WP Username & Password
 7. Change DB prefix
 8. custom_site Rename --widgets.php
-9. Change CPT (Products) --post-types.php
-9. Change custom_site --post-types.php
+9. Change CPT & icon (Products) --post-types.php
+9. Change custom_site variable in --post-types.php
 10. Delete All default post from CPT/Blogs
+11. Change in Sass CPT Archive/single file name
+12. Change all css from default CPT name to New in sinlge-product.scss file
+13. Chnage username from Akash Yadav to itOffer
+14. Create online profile to link in Wordpress
+15. Remove unwanted pictures from library
+
+100. Collect akamaster
+
+
+/* Priyanka :-
+-------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------- */
+
+-- Tell Priyanka -- vw / px in viewport
+
+
+
+/* Default Css Comment 
+-------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------- */

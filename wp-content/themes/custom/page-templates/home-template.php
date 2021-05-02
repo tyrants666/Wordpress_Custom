@@ -13,11 +13,15 @@
 //     $title = (isset($hero_banner['hero_banner']['title'])) ? $hero_banner['hero_banner']['title'] : false;
 ?>
 
-<main id="primary" class="temp-home">
+<!-- Banner
+-------------------------------------------------------- -->
+<div class="banner banner-home ">
+    <img src="<?php echo CUSTOM_DIR_URI ?>/assets/images/banner.jpg" alt="banner" class="img-object">
+</div>
 
-    <div class="banner" >
-        <img src="<?php echo CUSTOM_DIR_URI ?>/assets/images/banner.jpg" alt="banner" class="img-object">
-    </div>
+<!-- Content
+-------------------------------------------------------- -->
+<main id="primary" class="temp-home temp-wrapper">
 
     <section class="h-sec1">
         <h1 class="heading">About Rathicol</h1>

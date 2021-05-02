@@ -27,6 +27,17 @@ Tags:
    ------------------------------------------------------------------------------------------ */
 /* Inc font file ----------------------------------------------------------------------------
    -------------------------------------------------------------------------------------------*/
+/* Syestem Default CSS
+-------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------- */
+:root a {
+  color: #b5101d;
+}
+:root a:hover {
+  color: #666;
+  text-decoration: none;
+}
+
 ::-webkit-scrollbar {
   display: none;
 }
@@ -35,18 +46,26 @@ body {
   font-family: "Poppins", sans-serif !important;
 }
 
-article {
-  padding-top: 110px;
-}
-
 #main-wrapper {
   display: none;
 }
 
+main {
+  padding: 4vw 0;
+}
 main > section {
-  padding: 4vw 19vw 2vw 19vw;
+  padding: 0 19vw 0 19vw;
+}
+main > section:not(:first-of-type) {
+  padding-top: 4vw;
+}
+main > section:not(:last-of-type) {
+  padding-bottom: 2vw;
 }
 
+/* Global CSS
+-------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------- */
 h1.heading {
   width: fit-content;
   text-align: center;
@@ -61,10 +80,6 @@ h1.heading {
 h2.sub-heading {
   font-weight: 600;
   margin-bottom: 15px;
-}
-
-main.temp-wrapper {
-  margin: 50px 0;
 }
 
 /* Height
@@ -119,6 +134,8 @@ main.temp-wrapper {
 /* Image
 --------------------------------------------- */
 .img-object {
+  margin: 0;
+  padding: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -188,7 +205,7 @@ main.temp-wrapper {
   display: none;
 }
 
-footer {
+.footer {
   background: #1e1e1e;
   color: #B0B0B0;
 }
@@ -375,18 +392,12 @@ footer {
 
 /* Pages
 --------------------------------------------- */
-.temp-home {
-  padding-bottom: 50px;
+.banner-home {
+  height: 100vh;
 }
+
 .temp-home .img-col {
   height: 330px;
-}
-.temp-home .banner {
-  height: 100vh;
-  background: #666;
-}
-.temp-home .banner img {
-  filter: brightness(0.25) saturate(2.3);
 }
 .temp-home .h-sec2 .box {
   height: 13.9369791667vw;
@@ -449,6 +460,148 @@ footer {
   color: #003656;
   font-size: 13px;
   line-height: 1.6;
+}
+
+/* Default Single Post Page (Blog)
+-------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------- */
+.single-post article .entry-header {
+  margin-bottom: 23px;
+}
+.single-post article .entry-header h1.entry-title {
+  margin-left: 0;
+}
+.single-post article .entry-header .posted-on {
+  margin-right: 15px;
+}
+.single-post article .post-thumbnail {
+  margin-bottom: 23px;
+}
+.single-post article footer {
+  margin-top: 23px;
+}
+.single-post article footer .cat-links {
+  margin-right: 15px;
+}
+
+/* CPT First Styles
+-------------------------------------------------------- */
+.single-cpt1 article {
+  padding-bottom: 23px;
+  margin-bottom: 23px;
+}
+.single-cpt1 article .entry-header {
+  margin-bottom: 23px;
+}
+.single-cpt1 article .entry-header h1.entry-title {
+  margin-left: 0;
+}
+.single-cpt1 article .post-thumbnail {
+  margin-bottom: 23px;
+}
+.single-cpt1 .post-navigation {
+  border-bottom: none;
+}
+.single-cpt1 #comments {
+  padding-bottom: 23px;
+  margin-bottom: 23px;
+}
+.single-cpt1 .comment-form-comment {
+  display: grid;
+}
+
+/* Default Single Page
+-------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------- */
+.single article {
+  border-bottom: 2px dashed #b2adae;
+  padding-bottom: 23px;
+  margin-bottom: 23px;
+}
+.single article .entry-header h1.entry-title {
+  font-size: 36px;
+  line-height: 1.1;
+}
+.single article .entry-content img {
+  height: 100%;
+}
+.single article .post-thumbnail img {
+  width: 100%;
+  height: auto;
+}
+.single article footer {
+  margin-top: 50px;
+}
+.single .navigation {
+  border-bottom: 2px dashed #b2adae;
+  padding-bottom: 23px;
+  margin-bottom: 23px;
+}
+.single .navigation .nav-links {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+.single .navigation .nav-links .nav-next {
+  margin-left: auto;
+}
+.single .navigation .nav-links .nav-next .nav-subtitle {
+  margin-left: 15px;
+}
+.single .navigation .nav-links .nav-previous .nav-subtitle {
+  margin-right: 15px;
+}
+.single .navigation .nav-links .nav-subtitle svg {
+  height: 50px;
+  width: 50px;
+}
+.single .navigation .nav-links .nav-title {
+  font-weight: 600;
+  position: relative;
+  top: 2px;
+}
+.single #comments {
+  padding-bottom: 23px;
+  margin-bottom: 23px;
+}
+.single .comment-form-comment {
+  display: grid;
+}
+
+/* Custom Single CSS ( Theme 1 )
+------------------------------------------------------------------------------------------------------------- 
+------------------------------------------------------------------------------------------------------------- */
+.single-theme1 article .entry-header h1.entry-title {
+  font-weight: 700;
+}
+.single-theme1 article .entry-header .entry-meta {
+  font-weight: 700;
+}
+.single-theme1 article .entry-header .entry-meta .posted-on {
+  margin-right: 15px;
+}
+.single-theme1 article .entry-content {
+  margin-top: 35px;
+}
+.single-theme1 article .entry-content .wp-block-columns {
+  margin-bottom: 0;
+}
+.single-theme1 article footer .cat-links {
+  display: none;
+}
+.single-theme1 article footer .edit-links {
+  font-weight: 600;
+}
+.single-theme1 .navigation {
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.single-theme1 .navigation h2 {
+  display: none;
+}
+.single-theme1 #comments {
+  display: none;
 }
 
 /*# sourceMappingURL=style.css.map */

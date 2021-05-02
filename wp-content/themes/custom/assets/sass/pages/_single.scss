@@ -1,0 +1,148 @@
+
+
+/* Default Single Page
+-------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------- */
+.single {
+
+    article {
+        border-bottom: 2px dashed #b2adae;
+        padding-bottom: 23px;
+        margin-bottom: 23px;
+
+        // Heading ---------------------------------------
+        .entry-header {
+            h1.entry-title {
+                font-size: 36px;
+                line-height: 1.1;
+            }
+        }
+
+        // Content-----------------------------------------
+        .entry-content {
+            img {
+                height: 100%;
+            }
+        }
+
+        // Featured Image ---------------------------------
+        .post-thumbnail {
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+        // Footer------------------------------------------
+        footer {
+            margin-top: 50px;
+        }
+    }
+    // Navigation ---------------------------------------
+    .navigation {
+        border-bottom: 2px dashed #b2adae;
+        padding-bottom: 23px; 
+        margin-bottom: 23px;
+        
+        .nav-links {
+            display: inline-flex;
+            flex-wrap: nowrap;
+            width: 100%;
+            
+            .nav-next {
+                margin-left: auto;
+                .nav-subtitle {
+                    margin-left: 15px;
+                }
+            }
+            .nav-previous {
+                .nav-subtitle {
+                    margin-right: 15px;
+                }
+            }
+
+            .nav-subtitle {
+                svg {
+                    height: 50px;
+                    width: 50px;
+                }
+            }
+            .nav-title {
+                font-weight: 600;
+                position: relative;
+                top: 2px;
+            }
+            
+        }
+    }
+    // Comment Section---------------------------------------
+    #comments {
+        padding-bottom: 23px;
+        margin-bottom: 23px;
+    }
+    .comment-form-comment {
+        display: grid;
+    }
+
+}
+
+/* Custom Single CSS ( Theme 1 )
+------------------------------------------------------------------------------------------------------------- 
+------------------------------------------------------------------------------------------------------------- */
+.single-theme1 {
+
+    article {
+
+        // Heading -----------------------
+        .entry-header {
+            // margin-bottom: 23px;
+
+            h1.entry-title {
+                font-weight: 700;
+            }
+
+            .entry-meta {
+                font-weight: 700;
+
+                .posted-on {
+                    margin-right: 15px;
+                }
+            }
+        }
+
+        // Featured Image ---------------------------------
+
+        // Content-----------------------------------------
+        .entry-content {
+            margin-top: 35px;
+
+            .wp-block-columns {
+                margin-bottom: 0;
+            }
+        }
+        // Footer------------------------------------------
+        footer {
+            .cat-links {
+                display: none;
+            }
+            .edit-links {
+                font-weight: 600;
+            }
+        }
+    }
+
+    // Post Navigation ---------------------------------------
+    .navigation {
+        border-bottom: none;
+        padding-bottom: 0;
+        margin-bottom: 0;
+
+        h2 {
+            display: none;
+        }
+    }
+
+    // Comment Section ---------------------------------------
+    #comments {
+        display: none;
+    }
+}

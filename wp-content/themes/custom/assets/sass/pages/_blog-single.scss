@@ -1,0 +1,41 @@
+
+
+/* Default Single Post Page (Blog)
+-------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------- */
+
+.single-post {
+    
+    article {
+
+        // Heading -----------------------
+        .entry-header {
+            margin-bottom: 23px;
+            
+            h1.entry-title {
+                margin-left: 0;
+            }
+            .posted-on {
+                margin-right: 15px;
+            }
+        }
+
+        // Featured Image -----------------
+        .post-thumbnail {
+            margin-bottom: 23px;
+        }
+        // Content-----------------------
+        
+        // Footer-----------------------
+        footer {
+            margin-top: 23px;
+            .cat-links {
+                margin-right: 15px;
+            }
+        }
+    }
+    // Post Navigation ---------------------------------------
+    
+    // Comment Section---------------------------------------
+    
+}
