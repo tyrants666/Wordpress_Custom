@@ -21,7 +21,7 @@ get_header();
         <img src="<?php echo CUSTOM_DIR_URI ?>/assets/images/banner.jpg" alt="banner" class="img-object">
     </div>
     
-	<main class="temp-blog temp-wrapper">
+	<main class="temp-blog archive-theme1 temp-wrapper">
 
 
         <div class="container">
@@ -70,7 +70,15 @@ get_header();
                                             <?php the_title(); ?>
                                     </div>
 
+                                    <p class="published-date">Published on: <?php the_time('j-m-y g:i A') ?></p>
+
                                 </a>
+                                <p  class="categories">Category: <?php the_category(', ') ?></p>
+                                <p class="published-by">Published by : <?php the_author_posts_link(); ?></p>
+                                <p class="author-posts">View all articles by : <?php the_author_posts_link(); ?></p>
+                                <p class="tags">Tags: <?php the_tags('<div class="wpb-tags">Tags: ', '  ', '</div>'); ?></p>
+                                <!-- <p class="tags">Tags: <?php the_tags(); ?></p> -->
+
 
                             </div>
                             </div>

@@ -37,8 +37,14 @@ Note :-
 13. Chnage username from Akash Yadav to itOffer
 14. Create online profile to link in Wordpress
 15. Remove unwanted pictures from library
+16. THEME implemented
 
 100. Collect akamaster
+
+// Production ---------------------------------------------------------------
+// Production ---------------------------------------------------------------
+
+-- Remove single/archive custom theme1/theme2 css in production so that everything(META) is visible
 
 
 /* Priyanka :-

@@ -414,45 +414,36 @@ main.temp-home .h-sec4 img {
 
 /* Blog Archive Page
 -------------------------------------------------------- */
-.temp-blog .page-header h3 {
-  color: var(--blue-color);
-  font-size: 34px;
-  font-weight: 600;
-}
-
-.temp-blog .page-header {
-  font-size: 28px;
-  line-height: 36px;
-  font-weight: 700;
-  text-align: center;
-  margin-bottom: 54px;
-  padding: 35px;
-  border-bottom: 3px dashed #f3744f;
-}
-
-.temp-blog .archive-item {
+main.temp-blog .archive-item {
   margin-bottom: 47px;
 }
-
-.temp-blog .post-thumbnail img {
+main.temp-blog .archive-item p {
+  margin-bottom: 0px;
+}
+main.temp-blog .archive-item p a {
+  color: #b5101d;
+  font-weight: 500;
+}
+main.temp-blog .archive-item a {
+  color: #666;
+}
+main.temp-blog .archive-item a .post-thumbnail {
+  margin: 0;
+}
+main.temp-blog .archive-item a .post-thumbnail img {
   width: 100% !important;
   height: 185px !important;
   object-fit: cover;
   margin: 0;
 }
-
-.temp-blog .post-thumbnail {
-  margin: 0;
-}
-
 @media (min-width: 20em) and (max-width: 62em) {
-  .temp-blog .post-thumbnail img {
+  main.temp-blog .archive-item a .post-thumbnail img {
     max-height: 124px;
     min-height: 85px;
     height: auto;
   }
 }
-.temp-blog .post-title {
+main.temp-blog .archive-item a .post-title {
   font-weight: 600;
   font-size: 16.5px;
   margin-top: 15px;
@@ -461,11 +452,20 @@ main.temp-home .h-sec4 img {
   text-align: left;
   padding-right: 10px;
 }
-
-.temp-blog .post-content p {
+main.temp-blog .archive-item a .post-content p {
   color: #003656;
   font-size: 13px;
   line-height: 1.6;
+}
+/* Archive Theme 1 :-
+-------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------- */
+.archive-theme1 .published-date,
+.archive-theme1 .categories,
+.archive-theme1 .published-by,
+.archive-theme1 .author-posts,
+.archive-theme1 .tags {
+  display: none;
 }
 
 /* Default Single Post Page (Blog)
