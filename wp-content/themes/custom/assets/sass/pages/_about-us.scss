@@ -1,0 +1,14 @@
+
+
+
+// Content  --------------------------------------------
+
+main.temp-aboutus {
+    padding-bottom: 5vw;
+
+    &>section {
+        &:not(:first-of-type) {
+            padding-top: 3vw;
+        }
+    }
+} 

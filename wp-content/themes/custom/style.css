@@ -122,6 +122,12 @@ h2.sub-heading {
   align-items: center;
 }
 
+.col-v-center {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
 /* Components Global
 --------------------------------------------- */
 .g-heading {
@@ -396,13 +402,13 @@ h2.sub-heading {
   height: 100vh;
 }
 
-.temp-home .img-col {
+main.temp-home .img-col {
   height: 330px;
 }
-.temp-home .h-sec2 .box {
+main.temp-home .h-sec2 .box {
   height: 13.9369791667vw;
 }
-.temp-home .h-sec4 img {
+main.temp-home .h-sec4 img {
   filter: brightness(0.5);
 }
 
@@ -602,6 +608,17 @@ h2.sub-heading {
 }
 .single-theme1 #comments {
   display: none;
+}
+
+main.temp-contact > section:not(:first-of-type) {
+  padding-top: 2vw;
+}
+
+main.temp-aboutus {
+  padding-bottom: 5vw;
+}
+main.temp-aboutus > section:not(:first-of-type) {
+  padding-top: 3vw;
 }
 
 /*# sourceMappingURL=style.css.map */

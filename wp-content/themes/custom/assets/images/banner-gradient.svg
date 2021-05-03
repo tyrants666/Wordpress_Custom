@@ -1,0 +1,20 @@
+<svg id="Bg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="488" viewBox="0 0 1920 488">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#123075"/>
+      <stop offset="1" stop-color="#092056"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#29bbae"/>
+      <stop offset="1" stop-color="#1982c5"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Bg_Color" data-name="Bg Color" width="1920" height="488" fill="url(#linear-gradient)"/>
+    </clipPath>
+  </defs>
+  <rect id="Bg_Color-2" data-name="Bg Color" width="1920" height="488" fill="url(#linear-gradient-2)"/>
+  <g id="Bg-2" data-name="Bg" clip-path="url(#clip-path)">
+    <path id="Rectangle" d="M138.194,4.9,924.88-274.775c54.309-19.307,82.684,9.067,63.377,63.377L708.583,575.288c-19.308,54.309-78.986,113.988-133.3,133.3L-211.4,988.257c-54.309,19.307-82.684-9.067-63.377-63.376L4.9,138.194C24.206,83.884,83.884,24.206,138.194,4.9Z" transform="translate(1282.44 -584.295) rotate(45)" fill="#67e8dc" opacity="0.1"/>
+    <path id="Rectangle-2" data-name="Rectangle" d="M138.194,4.9,924.88-274.775c54.309-19.307,82.684,9.067,63.377,63.377L708.583,575.288c-19.308,54.309-78.986,113.988-133.3,133.3L-211.4,988.257c-54.309,19.307-82.684-9.067-63.377-63.376L4.9,138.194C24.206,83.884,83.884,24.206,138.194,4.9Z" transform="translate(645.29 -640.066) rotate(45)" fill="#67e8dc" opacity="0.1"/>
+  </g>
+</svg>

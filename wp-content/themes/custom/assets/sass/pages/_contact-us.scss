@@ -1,0 +1,13 @@
+
+
+
+// Content  --------------------------------------------
+
+main.temp-contact {
+
+    &>section {
+        &:not(:first-of-type) {
+            padding-top: 2vw;
+        }
+    }
+}
