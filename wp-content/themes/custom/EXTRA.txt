@@ -12,6 +12,7 @@
 6. Enable google captcha for forms
 7. Mobile responsive
 8. Contact form 7
+9. Remove material icon use SVG instead also remove CDN
 
 
 /* Boilerplate NOTES :-
