@@ -58,17 +58,17 @@ function product_cpt()
 
 	// Add new taxonomy, make it hierarchical (like categories)
 	// $labels = array(
-	// 	'name'              => _x('Mice Categories', 'taxonomy general name', 'dmcnordic'),
-	// 	'singular_name'     => _x('Mice Category', 'taxonomy singular name', 'dmcnordic'),
-	// 	'search_items'      => __('Search Mice Categories', 'dmcnordic'),
-	// 	'all_items'         => __('All Mice Categories', 'dmcnordic'),
-	// 	'parent_item'       => __('Parent Mice Category', 'dmcnordic'),
-	// 	'parent_item_colon' => __('Parent Mice Category:', 'dmcnordic'),
-	// 	'edit_item'         => __('Edit Mice Category', 'dmcnordic'),
-	// 	'update_item'       => __('Update Mice Category', 'dmcnordic'),
-	// 	'add_new_item'      => __('Add New Mice Category', 'dmcnordic'),
-	// 	'new_item_name'     => __('New Mice Category Name', 'dmcnordic'),
-	// 	'menu_name'         => __('Mice Categories', 'dmcnordic'),
+	// 	'name'              => _x('Custom Categories', 'taxonomy general name', 'custom_site'),
+	// 	'singular_name'     => _x('Custom Category', 'taxonomy singular name', 'custom_site'),
+	// 	'search_items'      => __('Search Custom Categories', 'custom_site'),
+	// 	'all_items'         => __('All Custom Categories', 'custom_site'),
+	// 	'parent_item'       => __('Parent Custom Category', 'custom_site'),
+	// 	'parent_item_colon' => __('Parent Custom Category:', 'custom_site'),
+	// 	'edit_item'         => __('Edit Custom Category', 'custom_site'),
+	// 	'update_item'       => __('Update Custom Category', 'custom_site'),
+	// 	'add_new_item'      => __('Add New Custom Category', 'custom_site'),
+	// 	'new_item_name'     => __('New Custom Category Name', 'custom_site'),
+	// 	'menu_name'         => __('Custom Categories', 'custom_site'),
 	// );
 	// $args = array(
 	// 	'labels' => $labels,
@@ -79,5 +79,5 @@ function product_cpt()
 	// 	'hierarchical'      => true,
 	// 	'has_archive'       => false,
 	// );
-	// register_taxonomy('mice-categories', array('mice'), $args);
+	// register_taxonomy('custom_categories', array('products'), $args);
 }
