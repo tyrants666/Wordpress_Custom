@@ -13,6 +13,7 @@
 7. Mobile responsive
 8. Contact form 7
 9. Remove material icon use SVG instead also remove CDN
+10. Collect akamaster
 
 
 /* Boilerplate NOTES :-
@@ -43,8 +44,7 @@ Note :-
 16. THEME implemented
 17. Change Favicon icon
 18. Remove custom Taxonomy & categories Electronics
-
-100. Collect akamaster
+19. 
 
 // Production ---------------------------------------------------------------
 // Production ---------------------------------------------------------------
