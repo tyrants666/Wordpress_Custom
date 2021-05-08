@@ -10,20 +10,86 @@
    ------------------------------------------------------------------------------------------ */
 
     $font-poppins: 'Poppins',sans-serif;
+	//$font-jiho: 'Jiho',sans-serif;
 
+
+/* Mixins ----------------------------------------------------------------------------
+   -------------------------------------------------------------------------------------------*/
+   // @mixin jaldi-reg {
+   //    font-family: 'Jaldi', sans-serif;
+   //    font-weight: 400;
+   // }
+   // @mixin jaldi-bold {
+   //    font-family: 'Jaldi', sans-serif;
+   //    font-weight: 700;
+   // }
 
 /* Inc font file ----------------------------------------------------------------------------
    -------------------------------------------------------------------------------------------*/
 
-// @font-face {
-//     font-family: 'YoungSerif';
-//     src: url('../fonts/YoungSerif-Regular.eot');
-//     src: url('../fonts/YoungSerif-Regular.eot?#iefix') format('embedded-opentype'),
-//         url('../fonts/YoungSerif-Regular.woff2') format('woff2'),
-//         url('../fonts/YoungSerif-Regular.woff') format('woff'),
-//         url('../fonts/YoungSerif-Regular.ttf') format('truetype'),
-//         url('../fonts/YoungSerif-Regular.svg#YoungSerif-Regular') format('svg');
-//     font-weight: 400;
-//     font-style: normal;
-//     font-display: swap;
-// }
+   // JOHI FONT -----------------------------------------------------   
+
+   // @font-face {
+   //     font-family: 'Jiho';
+   //     src: url('./assets/fonts/Jiho/Jiho-Thin.otf') format('opentype'),
+   //          url('./assets/fonts/Jiho/Jiho-Thin.ttf') format('truetype');
+   //     font-weight: 100;
+   //     font-style: normal;
+   //     font-display: swap;
+   // }
+   // @font-face {
+   //     font-family: 'Jiho';
+   //     src: url('./assets/fonts/Jiho/Jiho-Light.otf') format('opentype'),
+   //          url('./assets/fonts/Jiho/Jiho-Light.ttf') format('truetype');
+   //     font-weight: 300;
+   //     font-style: normal;
+   //     font-display: swap;
+   // }
+   // @font-face {
+   //     font-family: 'Jiho';
+   //     src: url('./assets/fonts/Jiho/Jiho-Regular.otf') format('opentype'),
+   //          url('./assets/fonts/Jiho/Jiho-Regular.ttf') format('truetype');
+   //     font-weight: 400;
+   //     font-style: normal;
+   //     font-display: swap;
+   // }
+   // @font-face {
+   //     font-family: 'Jiho';
+   //     src: url('./assets/fonts/Jiho/Jiho-Medium.otf') format('opentype'),
+   //          url('./assets/fonts/Jiho/Jiho-Medium.ttf') format('truetype');
+   //     font-weight: 500;
+   //     font-style: normal;
+   //     font-display: swap;
+   // }
+   // @font-face {
+   //    font-family: 'Jiho';
+   //     src: url('./assets/fonts/Jiho/Jiho-Bold.otf') format('opentype'),
+   //     url('./assets/fonts/Jiho/Jiho-Bold.ttf') format('truetype');
+   //     font-weight: 700;
+   //     font-style: normal;
+   //     font-display: swap;
+   // }
+   // @font-face {
+   //    font-family: 'Jiho';
+   //    src: url('./assets/fonts/Jiho/Jiho-ExtraBold.otf') format('opentype'),
+   //    url('./assets/fonts/Jiho/Jiho-ExtraBold.ttf') format('truetype');
+   //    font-weight: 800;
+   //    font-style: normal;
+   //    font-display: swap;
+   // }
+   // @font-face {
+   //     font-family: 'Jiho';
+   //     src: url('./assets/fonts/Jiho/Jiho-Heavy.otf') format('opentype'),
+   //          url('./assets/fonts/Jiho/Jiho-Heavy.ttf') format('truetype');
+   //     font-weight: 900;
+   //     font-style: normal;
+   //     font-display: swap;
+   // }
+   // @font-face {
+   //     font-family: 'Jiho';
+   //     src: url('./assets/fonts/Jiho/Jiho-Black.otf') format('opentype'),
+   //          url('./assets/fonts/Jiho/Jiho-Black.ttf') format('truetype');
+   //     font-weight: 950;
+   //     font-style: normal;
+   //     font-display: swap;
+   // }
