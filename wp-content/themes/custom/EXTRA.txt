@@ -28,7 +28,7 @@ Note :-
 -- Create a new repo
 -- Remove default git folder inside root
 -- git init
--- Change git remote url -- git remote set-url origin newurlhere
+-- Change git remote url/Add remote url -- git remote set-url origin newurlhere
 -- Change Project name in root Folder
 -- Change theme folder name
 -- Change Theme screenshot.png image (1200*600)
